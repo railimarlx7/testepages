@@ -1,0 +1,113 @@
+[
+  {
+    "uri": "features/compras.feature",
+    "id": "efetuar-compra-do-xbox",
+    "keyword": "Funcionalidade",
+    "name": "Efetuar compra do Xbox",
+    "description": "    Adicionar produto no carrinho e finalizar a compra com login e senha \n    e receber uma mensagem constando a compra ",
+    "line": 2,
+    "elements": [
+      {
+        "id": "efetuar-compra-do-xbox;compra-produto",
+        "keyword": "Cenario",
+        "name": "Compra produto",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.21.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.21.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesso o site",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/automacao_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9869050700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "seleciono e faco coloco no carrinho",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/automacao_step.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14261826900
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "faço login na conta",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/automacao_step.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2676423800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "finalizo a compra",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/automacao_step.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4077966900
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "Congratulations! Your order has been successfuly placed."
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108058800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.21.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112587800
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
